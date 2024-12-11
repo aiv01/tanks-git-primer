@@ -35,7 +35,9 @@ namespace ECS_Tankz_1
         private static bool firstFrame;
 
         public static void Init(string windowName, int windowWidth, int windowHeight, Scene startScene, float workingHeight, float ortographicSize)
-        {
+        { 
+            //Add comment
+
             Win = new Window(windowWidth, windowHeight, windowName);
             WorkingHeight = workingHeight;
             Win.SetDefaultViewportOrthographicSize(ortographicSize);
